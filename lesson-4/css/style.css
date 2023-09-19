@@ -6,17 +6,24 @@ h1{
 h2{
 	color: rgb(27, 27, 248);
 }
-* li{
-	color: purple;
+ul.down__footer{
+	color: blue;
+}
+
+div * .story__animals{
+	color: rgb(62, 143, 146);
+}
+div >.list__story{
+	color: rgb(241, 150, 12);
 }
 #header li{
 	color: rgb(149, 202, 42);
 }
-#main p{
-	color: rgb(241, 150, 12);
-}
-.story__animals p{
-	color: rgb(62, 143, 146);
+/* #main p{
+
+} */
+[class*='some__list']{
+	color: rgb(148, 58, 58);
 }
 .bird__story h2{
 	color: rgb(132, 0, 255);
