@@ -1,0 +1,144 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body *{
+	font-family: 'Inter';
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+.first__screen{
+	max-width: 692px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.image {
+	padding-top: 50px;
+	margin-bottom: 24px;
+}
+.why__us-title {
+	font-family: 'Poppins';
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform: capitalize;
+	margin-bottom: 3px;
+}
+.why__us-desc {
+	font-weight: 400;
+	font-size: 18px;
+	color: #7D7D7D;
+	line-height: 1.45;
+	margin-bottom: 42px;
+}
+.why__us-subtitle {
+	font-family: Poppins;
+	color: #6B77E5;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.why__us-subdesc {
+	font-size: 18px;
+	font-weight: 400;
+	color: #7D7D7D;
+	line-height: 1.45;
+	margin-bottom: 40px;
+}
+.benefits__contant {
+	display: inline-block;
+   max-width: 332px;
+}
+.benefits__img {
+	padding-right: 15px;
+}
+.benefits__title {
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	color: #37393F;
+	margin-bottom: 15px;
+}
+.benefits__subtitle {
+	font-family: Poppins;
+	color: #40DDB6;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 24px;
+}
+.benefits__items {
+	font-weight: 400;
+	color: #7D7D7D;
+	margin-bottom: 35px;
+}
+
+.second__screen{
+	max-width: 1169px;
+	margin: 0 auto;
+	font-size: 0;
+	background-color: #FFF9F4;
+}
+.information{
+	max-width: 563px;
+	display: inline-block;
+	padding-right: 38px;
+}
+
+.what__title {
+	font-size: 28px;
+	font-weight: 400;
+	color: #D06B00;
+	margin-bottom: 13px;
+}
+.what__subtitle {
+	font-family: 'DM Serif Text', serif;
+	font-size: 59px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #0E333D;
+	margin-bottom: 25px;
+}
+.what__descr {
+	font-weight: 400;
+	font-size: 20px;
+	color: #474747;
+	line-height: 1.8;
+	margin-bottom: 21px;
+}
+.what__images {
+	max-width: 568px;
+   display: inline-block;
+	vertical-align: top;
+   font-size: 0;
+	margin-bottom: 20px;
+}
+.images1{
+	margin-right: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
