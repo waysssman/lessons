@@ -1,0 +1,32 @@
+@font-face{
+	font-family: 'DrukCyr';
+	src: url('../fonts/DrukCyr-Bold.woff2') format('woff2'),
+		  url('../fonts/DrukCyr-Bold.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+		  font-display: swap;
+}
+@font-face{
+	font-family: 'DrukCyr';
+	src: url('../fonts/DrukCyr-Heavy.woff2') format('woff2'),
+		  url('../fonts/DrukCyr-Heavy.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+		  font-display: swap;
+}
+@font-face{
+	font-family: 'DrukCyr';
+	src: url('../fonts/DrukCyr-Medium.woff2') format('woff2'),
+		  url('../fonts/DrukCyr-Medium.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+		  font-display: swap;
+}
+@font-face{
+	font-family: 'DrukCyr';
+	src: url('../fonts/DrukCyr-Super.woff2') format('woff2'),
+		  url('../fonts/DrukCyr-Super.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+		  font-display: swap;
+}

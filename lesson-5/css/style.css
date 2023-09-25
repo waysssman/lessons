@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-indent: 30px;
+}
+h1,
+h2,
+h3{
+	font-family: 'DrukCyr', sans-serif;
+	text-align: center;
+	word-spacing: 5px;
+	color: rgba(0, 0, 255, 0.452);
+}
+
+h1{
+	font-size: 40px;
+	line-height: 1.17; /* 35/30 */
+	text-shadow: 2px 4px 4px rgba(250, 32, 32, 0.76), -5px -2px 2px rgb(5, 235, 5);
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 20px;
+}
+.some__text{
+	text-decoration: line-through;
+}
+.content__text{
+	white-space: nowrap;
+	letter-spacing: 1px;
+}
+#going{
+	word-spacing: 50px;
+}
+
+
+.home__work-first h2{
+	color: #37393F;
+	line-height: 1.27;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.fist__section h3{
+	color: #6B77E5;
+}
+.home__work-first h2,
+						h3{
+							font-family: 'Poppins', sans-serif;
+							font-weight: 600;
+							}
+.fist__section p{
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.home__work-second{
+	font-family: 'Inter', sans-serif;
+}
+
+.title{
+	font-family: 'Poppins', sans-serif;
+	color: #37393F;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+}
+.second__section p{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #7D7D7D;
+}
+.second__section li{
+	color: #7D7D7D;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.5;
+}
