@@ -1,0 +1,345 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+footer{
+	max-width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.header{
+	font-family: "Inter", sans-serif;
+	max-width: 100%;
+   font-size: 55px;
+	font-weight: 600;
+   color: #5e8367;
+   text-align: center;
+   padding: 40px 0;
+   text-shadow: 5px 6px 7px #3cb1d1;
+   line-height: 1.2;
+   box-shadow: inset 0px 0px 40px 40px rgba(247, 12, 12, 0.1);
+	background-color: #1fe09060;
+	margin-bottom: 50px;
+}
+.more__links a{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 auto;
+	color: #9b56f7ad;
+	margin-right: 100px;
+	text-align: center;
+}
+.licencing__block{
+	max-width: 1218px;
+	margin: 0 auto;
+	padding: 150.5px 0;
+}
+.licencing__container{
+	margin-bottom: 70px;
+	text-align: center;
+}
+.cube{
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	display: inline-block;
+}
+.template{
+	margin-bottom: 20px;
+}
+.template p{
+	display: inline-block;
+	color: #37393F;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.licencing__title{
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+}
+.icons__licencing{
+	margin-bottom: 100px;
+}
+.icons__info{
+	margin-bottom: 32px;
+}
+
+.sub {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 11px;
+}
+.sub__text {
+	color: #7D7D7D;
+	line-height: 1.46;
+}
+.little__sub {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.color__sub {
+	color: #40DDB6;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+}
+.photography__info,
+.photography__desc,
+.photography__container{
+	margin-bottom: 24px;
+}
+.photography__block{
+	margin-bottom: 100px;
+}
+
+.color__paragraph{
+	color: #40DDB6;
+	line-height: 1.46;
+}
+.color__text{
+	color: #40DDB6;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	line-height: 1.46;
+}
+
+
+.project__block{
+	font-family: 'Inter', sans-serif;
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 50px 0px 50px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.main__title{
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-bottom: 13px;
+}
+.main__paragraph{
+	color: #7D7D7D;
+	line-height: 1.46;
+	margin-bottom: 35px;
+
+}
+.main__paragraph p{
+	margin-bottom: 35px;
+}
+.project__list-ul li,
+.project__list-ol li{
+	list-style: inside;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+.project__list-ol li{
+	list-style: decimal-leading-zero;
+}
+.project__list-ol ol{
+	margin-left: 25px;
+}
+.font__weight{
+	color: #7D7D7D;
+	font-weight: 500;
+}
+
+
+.clothing__block{
+	max-width: 1219px;
+	margin: 0 auto;
+	padding: 0 0 55px 0;
+}
+.up__title-figure{
+	max-width: 552px;
+	max-height: 31px;
+	margin-bottom: 30px;
+}
+.purple__figure{
+	display: inline-block;
+	width: 6px;
+	height: 33px;
+	border-radius: 10px;
+	background: #8A33FD;
+	vertical-align: top;
+}
+.clothing__title{
+	display: inline-block;
+	color: #3C4242;
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+	padding-left: 15px;
+}
+
+.clothing__describe p{
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	color: #807D7E;
+}
+.clothing__sub,
+.see__more{
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 20px;
+	color: #807D7E;
+	font-weight: 600;
+	line-height: 1.67;
+	margin-bottom: 25px;
+}
+.dark{
+	color: #807D7E;
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+}
+.first__paragraph,
+.footer__paragraph,
+.footer__paragraph-second{
+	margin-bottom: 20px;
+}
+.central__paragraph,
+.middle__title{
+	margin-bottom: 25px;
+}
+
+
+.jewellery__block {
+	padding: 100px 0;
+	font-family: 'Cormorant Infant';
+	margin-bottom: 100px;
+}
+.jewellery__container {
+	max-width: 1100px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.jewellery__contant {
+	display: inline-block;
+	max-width: 503px;
+	padding: 70px 0;
+	margin-right: 75px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.jewellery__label {
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 27px;
+	color: #d58417;
+}
+.jewellery__title {
+	color: #000;
+	font-size: 64px;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+.jewellery__text p{
+	color: #606060;
+	font-size: 31px;
+	line-height: 1.4;
+}
+.jewellery__images {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+}
+.jewellery__image {
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #502203;
+	border-radius: 235px;
+}
+.first__image {
+	margin-right: 30px;
+	width: 177px;
+	height: 336px;
+}
+.second__image {
+	width: 307px;
+	height: 500px;
+}
+
+.first__image img{
+	margin-left: -10px;
+	padding-top: 14px;
+}
+.second__image img{
+	margin-left: -11px;
+	padding-top: 19px;
+}
+
+.practice__block{
+	max-width: 960px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+.practice__block *{
+	display: inline-block;
+}
+
+.color__block{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #3cb1d1;
+	border: 5px solid transparent;
+}
+.border__block{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #26e7b7;
+	border: 2px solid red;
+}
+.outline__block{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #a4e726;
+	outline: 4px solid rgb(21, 25, 240);
+}
+.box__shadow-block{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #2861db;
+	box-shadow:
+	5px 5px 20px 5px #000,
+	-5px -5px 20px 5px red;
+	margin-bottom: 20px;
+}
+.opacity__block{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #2861db;
+	margin-left: 40px;
+	box-shadow:
+	5px 5px 20px 5px #ce10c4,
+	-5px -5px 20px 5px rgba(222, 245, 18, 0.945);
+	opacity: 0.5;
+}
