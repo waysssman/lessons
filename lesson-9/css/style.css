@@ -39,7 +39,7 @@ h1,h2{
 	background-color: azure;
 }
 .links:focus{
-	outline: 2px salmon rgb(247, 25, 210);
+	outline: 2px dotted salmon;
 	color: yellow;
 }
 .header__title:hover{
