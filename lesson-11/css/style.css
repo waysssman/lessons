@@ -1,0 +1,29 @@
+@import url("reset.css");
+
+.color-block__item--black {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #3C4242;
+}
+.color-block__item--yellow {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #EDD146;
+}
+.color-block__item--pink {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #EB84B0;
+}
+.color-block__item--red {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #9C1F35;
+}
+.color-block__list > li{
+	display: inline-block;
+}
