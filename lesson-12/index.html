@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 12 Position</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header header--fix">
+			<div class="header__container">
+			<ul class="menu">
+				<li class="menu__item">
+					<a href="#" class="menu__link">Item#1</a>
+					<ul class="sub__menu">
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--1-1</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--1-2</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--1-3</a>
+							<ul class="sub-sub-menu">
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem1</a>
+								</li>
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem2</a>
+								</li>
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem3</a>
+								</li>
+							</ul>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--1-4</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Item#2</a>
+					<ul class="sub__menu">
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--2-1</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--2-
+								2</a>
+								<ul class="sub-sub-menu">
+									<li class="sub-sub-item">
+										<a href="#" class="sub-sub-link">SubSubItem1</a>
+									</li>
+									<li class="sub-sub-item">
+										<a href="#" class="sub-sub-link">SubSubItem2</a>
+									</li>
+									<li class="sub-sub-item">
+										<a href="#" class="sub-sub-link">SubSubItem3</a>
+									</li>
+								</ul>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--2-
+								3</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--2-
+								4</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Item#3</a>
+					<ul class="sub__menu">
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--3-1</a>
+							<ul class="sub-sub-menu">
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem1</a>
+								</li>
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem2</a>
+								</li>
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem3</a>
+								</li>
+							</ul>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--3-2</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--3-3</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--3-4</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Item#4</a>
+					<ul class="sub__menu">
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--4-1</a>
+							<ul class="sub-sub-menu">
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem1</a>
+								</li>
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem2</a>
+								</li>
+								<li class="sub-sub-item">
+									<a href="#" class="sub-sub-link">SubSubItem3</a>
+								</li>
+							</ul>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--4-2</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--4-3</a>
+						</li>
+						<li class="sub__menu-item">
+							<a href="" class="sub__menu-link">SubItem--4-4</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<ul class="side">
+					<li class="side__item"><a href="#" class="side__link">Side item #1</a></li>
+					<li class="side__item"><a href="#" class="side__link">Side item #2</a></li>
+					<li class="side__item">
+						<a href="#" class="side__link">Side item #3</a>
+						<ul class="sub-menu-side">
+							<li class="sub-menu-side__item">
+								<a href="#" class="sub-menu-side__link">Side sub item #1</a>
+							</li>
+							<li class="sub-menu-side__item">
+								<a href="#" class="sub-menu-side__link">Side sub item #2</a>
+							</li>
+							<li class="sub-menu-side__item">
+								<a href="#" class="sub-menu-side__link">Side sub item #3</a>
+								<ul class="sub-sub-menu">
+									<li class="sub-sub-item">
+										<a href="#" class="sub-sub-link">SubSubItem1</a>
+									</li>
+									<li class="sub-sub-item">
+										<a href="#" class="sub-sub-link">SubSubItem2</a>
+									</li>
+									<li class="sub-sub-item">
+										<a href="#" class="sub-sub-link">SubSubItem3</a>
+									</li>
+								</ul>
+							</li>
+							<li class="sub-menu-side__item">
+								<a href="#" class="sub-menu-side__link">Side sub item #4</a>
+							</li>
+						</ul>
+					</li>
+					<li class="side__item"><a href="#" class="side__link">Side item #4</a></li>
+				</ul>
+				<div class="contant">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo voluptates quibusdam, harum error animi ab! Nesciunt laborum, perspiciatis ex, temporibus cupiditate facere harum repellat odio ut non repudiandae. Id.
+					Ipsa repudiandae doloremque voluptatem illum, soluta, possimus ipsam voluptatum officia eos ex saepe quo. Quisquam blanditiis tenetur voluptatibus commodi accusamus. Inventore tempore iusto autem, minima consequatur praesentium. Repellendus, numquam sequi.
+					Nobis rem ipsam unde? Porro incidunt corrupti esse odit dignissimos quae sit, iure asperiores deleniti minus pariatur, quo voluptatibus. Nesciunt, pariatur inventore ipsa mollitia aliquid laboriosam tenetur earum labore quod?
+					Nostrum dignissimos delectus facere ipsum fugiat reiciendis, corporis quaerat aut alias dolor culpa exercitationem. Nam illum eos, asperiores quae quia nobis minima libero sequi suscipit est saepe perspiciatis magnam recusandae.
+					Ipsum corporis accusamus sequi libero? Molestiae illo veniam qui dicta quasi culpa neque eveniet, necessitatibus consequatur eum voluptates recusandae, sunt quia nulla, delectus optio corporis officiis impedit eos? Corporis, beatae.
+					Necessitatibus sed inventore nemo nostrum praesentium ex exercitationem ad explicabo laboriosam consequatur, sunt sit debitis sequi dolore nobis quos, beatae provident dolor? Aliquam ut alias magni illo non! Voluptatem, quasi!
+					Excepturi, eligendi accusantium laboriosam nobis ut aliquid autem nisi a voluptates necessitatibus minus aperiam aliquam? Quas, adipisci. Quisquam fuga, vel adipisci omnis dolor est sint saepe asperiores inventore laboriosam voluptate!
+					Odio praesentium sunt aut repudiandae saepe labore numquam magni, similique sapiente? Ratione expedita harum fugit nam, labore maxime deleniti quibusdam. Quod cupiditate quos alias sequi! Eveniet ipsam quo qui delectus.
+					Quos, ullam sit fugit provident eius, maxime earum ducimus consectetur animi ad vitae id vel voluptate voluptatibus, enim aspernatur molestias. Adipisci velit culpa, nesciunt saepe deserunt tempore quae totam officiis!
+					Incidunt veritatis doloremque quis, repellendus doloribus ex voluptatem. Itaque numquam ipsa autem distinctio praesentium suscipit quis sapiente quaerat mollitia obcaecati possimus, ullam ipsam temporibus aut officiis pariatur quo cum voluptas?
+					Modi, blanditiis velit. Quam, unde atque? Laudantium, nesciunt expedita rerum delectus tenetur quas sit impedit sint suscipit. Debitis aspernatur eaque eum, vel ut est earum repellat? Voluptatem debitis illo delectus!
+					Explicabo nam voluptatem autem, magnam delectus ipsam adipisci molestias blanditiis hic accusantium saepe deserunt, iste libero doloremque, perferendis obcaecati quas non sequi facilis ipsum itaque expedita nobis dignissimos. Obcaecati, voluptas?
+					Rerum et reprehenderit deserunt minima aliquid distinctio exercitationem, illo voluptatibus fugit dicta nisi perspiciatis doloremque nemo quo, enim recusandae saepe tenetur repellat ab, veniam nostrum? Asperiores dignissimos deserunt quod voluptatem?
+					Quod sunt ipsum enim cumque eum quae odit nam similique ab, commodi non quis voluptate doloribus maiores reiciendis possimus adipisci expedita eius voluptatem laboriosam a ut doloremque neque alias. Labore.
+					Praesentium cupiditate facere quam non perspiciatis aut corporis harum perferendis repellendus maiores illo, molestias a dolores dolorem, rerum sunt provident ullam. Laudantium ab ipsum recusandae ipsa molestias, illum eos vitae.
+					Tenetur, nam, nesciunt incidunt officia rem aliquam nisi ut blanditiis perferendis voluptate numquam quo dignissimos et, vitae culpa? Voluptatem nesciunt facilis illo veniam omnis unde eveniet quaerat illum facere quasi!
+					Ea dolor non recusandae, corrupti aut soluta cumque accusamus, nihil ipsam optio harum autem impedit tempore fugiat deleniti id incidunt eum, fugit debitis consequuntur doloremque quisquam! Soluta inventore repudiandae unde!
+					Consectetur exercitationem, voluptatibus praesentium incidunt dolor cupiditate quis, nisi laboriosam dolore porro, nostrum tempora? Labore doloremque perspiciatis iusto quibusdam itaque architecto ducimus a nihil possimus quisquam. Atque repudiandae et aut.
+					Error porro nesciunt, mollitia culpa unde veniam repellat labore velit omnis! Vel distinctio illo culpa quaerat, nostrum ipsam, blanditiis quae nihil quos excepturi dolor asperiores architecto assumenda. Nostrum, consequuntur laboriosam.
+					Non quibusdam ex sapiente quasi, quod esse eaque vero illo accusamus assumenda odit provident eum molestiae unde voluptate culpa minus enim recusandae reiciendis cum voluptas? Quis omnis iste facilis nostrum!
+					Iusto quam labore eum consequuntur suscipit deleniti perspiciatis natus alias inventore illum voluptatibus nam officiis cupiditate odio culpa, neque facilis? Facilis, est voluptatum rerum ut libero consectetur et tenetur nulla!
+					Ut aperiam non amet esse nemo veritatis quisquam qui. Reiciendis architecto eum repellat voluptates ducimus libero! Iste consequatur soluta delectus optio dolor, ea magni perferendis voluptatibus voluptatum illo dicta sapiente.
+					Consectetur hic provident dolorum, adipisci tempora odio quo animi nam similique impedit facilis quia architecto omnis. Maiores praesentium quia aut, officia porro distinctio culpa! Dolorem ipsam distinctio est. Tempore, quo.
+					Eius ab, fugiat similique voluptatum pariatur eos vel non sunt quas, iste assumenda cupiditate! Expedita enim maiores delectus, explicabo, corporis, earum a at porro culpa odio inventore aspernatur cupiditate reiciendis!
+					Nobis illo expedita ullam incidunt quis et, similique nemo at dolore dolores harum deserunt eveniet eos eius reiciendis nostrum ipsa maxime nisi accusamus cumque debitis? Placeat similique repellendus fugit vel?
+					Officiis adipisci expedita, aliquam tenetur nam repellendus ipsum. Fugit perferendis suscipit magni, quae, perspiciatis voluptatum architecto sit blanditiis fugiat obcaecati soluta eum molestias, odit aperiam itaque eligendi nostrum libero odio?
+					Amet ratione labore dicta. Maiores fugiat, consectetur dicta autem non tempore aut impedit incidunt illum officiis ab dignissimos vel excepturi hic ex in sit rerum, accusamus, ipsam temporibus numquam. Inventore?
+					Perferendis enim sunt nemo omnis at animi, iure consequuntur similique, voluptas necessitatibus obcaecati molestias temporibus! Quibusdam earum ad expedita? Totam vel exercitationem tenetur molestias aliquid earum qui quos! Expedita, cum.
+					Fugiat nemo culpa, temporibus perspiciatis dolore tenetur voluptates iusto cum enim, consequuntur quae. Vero ratione aliquid modi sit in, praesentium corrupti facere iusto optio voluptate animi assumenda incidunt aut! Ex.
+					Dicta perspiciatis eum quae ex magni corporis repellendus a, repellat, voluptatum excepturi minima ducimus sint iste aliquam culpa numquam, saepe doloremque! Unde corporis quam veritatis itaque, reiciendis maiores asperiores suscipit!
+					Earum asperiores sequi vitae enim, atque sit necessitatibus! Amet, cumque, reiciendis veniam quis, itaque a labore consequuntur aliquid iusto magni culpa! A facilis non minus repellat suscipit officiis atque labore.
+					Sint itaque accusamus, minima dolore excepturi, neque nostrum esse eum molestiae et rem vitae tenetur quod obcaecati labore qui beatae. Vel doloremque distinctio incidunt quasi velit! Illo, numquam magni? Reiciendis!
+					Adipisci beatae perferendis ab odio non in, libero accusamus qui incidunt officia asperiores deleniti iure ad nostrum quae maiores vel facilis porro ducimus explicabo repudiandae. Illum rerum repellat est fuga.
+					Vel, quae voluptate, sequi ipsum deleniti porro ea iste magni a asperiores delectus quia nulla explicabo adipisci provident tempora eligendi inventore aliquid officia libero commodi fugiat. A suscipit harum molestiae.
+					Magni eos eaque vero cum esse itaque reiciendis quia perferendis alias a odit tempore culpa accusamus ipsam excepturi labore expedita laboriosam eum, temporibus repellendus quis. Quidem porro unde eveniet mollitia.
+					Labore porro, reprehenderit consequatur dicta nam officia ratione delectus sit quis ab quos tempore in quae ducimus rerum accusamus veritatis possimus iste placeat alias. Sequi sit consectetur exercitationem facere error!
+					Nostrum, dolorem molestiae. Similique voluptatibus aspernatur officia neque blanditiis ea voluptate exercitationem qui aperiam nisi quos, sunt fugiat impedit velit perspiciatis tenetur quis earum eaque sapiente fugit? Dicta, vel voluptate.
+					Optio cumque fugit cum, laboriosam aspernatur voluptatem soluta quibusdam temporibus magni. Doloremque tempora sequi laboriosam quae minima, dolorem debitis nulla hic ab delectus magnam modi voluptatibus eum repudiandae illum corrupti?
+					Recusandae iste, veniam velit, nulla reiciendis quia corporis ad unde totam quam aperiam aut doloribus optio cumque harum. Minima dolorum consectetur hic amet fugiat numquam atque distinctio debitis, tempora est.
+					Suscipit optio deserunt eligendi vitae voluptatibus blanditiis, voluptatum laborum praesentium, ducimus itaque necessitatibus id eveniet et quae repellat consequatur quia eaque officiis ullam molestias! Architecto voluptatem ipsa ipsam! Hic, excepturi.
+					Debitis laudantium, accusamus obcaecati et nulla maiores distinctio? Reprehenderit voluptatem nemo tempore, fugiat eos similique eum dolor aperiam minima ipsum blanditiis? Qui voluptatum aliquam officiis rerum nulla est! Explicabo, quia.
+					Suscipit, eos eaque quam deserunt, consequatur expedita corporis recusandae natus praesentium vitae eum facilis ea perspiciatis ad, eius modi! Quod ullam quia iusto itaque officiis laudantium repudiandae a magnam sapiente!
+					Necessitatibus blanditiis ullam ducimus asperiores dolore explicabo iure quia laboriosam labore eaque accusantium quam similique cupiditate consectetur vitae, cumque facilis quos dicta saepe ex? Autem temporibus perspiciatis velit quibusdam veritatis.
+					Sed cupiditate sint accusamus, provident, aut dolor totam quia aliquam sit quasi doloribus labore molestias consectetur atque id excepturi a ratione. In ipsam perferendis alias, et est minus quam temporibus.
+					Explicabo ad tempore sint dignissimos dicta cumque ipsum deleniti aliquid laboriosam impedit, eligendi est quae mollitia tempora laborum deserunt voluptatem accusamus natus. Repellat vel molestiae minima alias sint. Ex, incidunt.
+					Vitae fugit excepturi rem id laboriosam minus rerum possimus amet molestias sed ab voluptas porro ipsum architecto praesentium est ut totam aliquid error veritatis sint ad, fuga nihil. Ratione, ipsa.
+					Quos possimus et voluptatum, eos placeat animi magnam voluptate ab recusandae facilis eveniet tenetur aperiam labore repellendus, commodi sint aliquid veritatis doloremque maiores assumenda? Facilis error totam excepturi mollitia laudantium?
+					Ipsam voluptatibus non possimus voluptatum explicabo impedit voluptas accusantium quasi deserunt. Totam, asperiores tempore! Quaerat dolore veniam aperiam aliquam est ratione quam laboriosam, quidem obcaecati cupiditate, maiores natus, eum sequi?
+					Praesentium laborum iste molestias id eum eveniet est dolorem consequatur repellendus quidem quam culpa odio consectetur facere, dignissimos optio neque libero quo numquam laboriosam aliquam! Ut voluptatem beatae iusto nobis?
+					Quidem, illum vel? Nisi enim perspiciatis laboriosam et ullam perferendis magnam quaerat maiores illum, dicta temporibus amet mollitia itaque atque dolores libero! Omnis eveniet nulla quas accusamus possimus ipsa deleniti.</p>
+				</div>
+				<div class="page__experts experts">
+					<div class="experts__container">
+						<div class="experts__team">
+							<div class="experts__card card">
+								<a href="#" class="card__img">
+									<img src="img/photo1.webp" alt="girl in glasses">
+								</a>
+								<div class="card__social social-item">
+									<!-- тут перехід для вивільнення імен -->
+									<div class="social-item__body">
+										<a href="#" class="social-item__link">
+											<img src="img/icons/insta.svg" alt="instagram icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/fb.svg" alt="facebook icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/twiter.svg" alt="twitter icon">
+										</a>
+									</div>
+								</div>
+								<div class="card__content">
+									<a href="#" class="card__title-link">
+										Nattasha Kelvin
+									</a>
+									<h3 class="card__subtitle">
+										Managing Director
+									</h3>
+								</div>
+							</div>
+							<div class="experts__card card">
+								<a href="#" class="card__img">
+									<img src="img/photo2.webp" alt="man in yellow shirt">
+								</a>
+								<div class="card__social social-item">
+									<div class="social-item__body">
+										<a href="#" class="social-item__link">
+											<img src="img/icons/insta.svg" alt="instagram icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/fb.svg" alt="facebook icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/twiter.svg" alt="twitter icon">
+										</a>
+									</div>
+								</div>
+								<div class="card__content">
+									<a href="#" class="card__title-link">
+										David Simpson
+									</a>
+									<h3 class="card__subtitle">
+										Designer
+									</h3>
+								</div>
+							</div>
+							<div class="experts__card card">
+								<a href="#" class="card__img">
+									<img src="img/photo3.webp" alt="girl in white shirt">
+								</a>
+								<div class="card__social social-item">
+									<div class="social-item__body">
+										<a href="#" class="social-item__link">
+											<img src="img/icons/insta.svg" alt="instagram icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/fb.svg" alt="facebook icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/twiter.svg" alt="twitter icon">
+										</a>
+									</div>
+								</div>
+								<div class="card__content">
+									<a href="#" class="card__title-link">
+										Madeleine Grant
+									</a>
+									<h3 class="card__subtitle">
+										Marketing Specialist
+									</h3>
+								</div>
+							</div>
+							<div class="experts__card card">
+								<a href="#" class="card__img">
+									<img src="img/photo4.webp" alt="man in blue shirt">
+								</a>
+								<div class="card__social social-item">
+									<div class="social-item__body">
+										<a href="#" class="social-item__link">
+											<img src="img/icons/insta.svg" alt="instagram icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/fb.svg" alt="facebook icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/twiter.svg" alt="twitter icon">
+										</a>
+									</div>
+								</div>
+								<div class="card__content">
+									<a href="#" class="card__title-link">
+										Jonathan Coleman
+									</a>
+									<h3 class="card__subtitle">
+										Managing Director
+									</h3>
+								</div>
+							</div>
+							<div class="experts__card card">
+								<a href="#" class="card__img">
+									<img src="img/photo5.webp" alt="girl in green shirt">
+								</a>
+								<div class="card__social social-item">
+									<div class="social-item__body">
+										<a href="#" class="social-item__link">
+											<img src="img/icons/insta.svg" alt="instagram icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/fb.svg" alt="facebook icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/twiter.svg" alt="twitter icon">
+										</a>
+									</div>
+								</div>
+								<div class="card__content">
+									<a href="#" class="card__title-link">
+										Wanda Forsyth
+									</a>
+									<h3 class="card__subtitle">
+										Designer
+									</h3>
+								</div>
+							</div>
+							<div class="experts__card card">
+								<a href="#" class="card__img">
+									<img src="img/photo6.webp" alt="man in red shirt">
+								</a>
+								<div class="card__social social-item">
+									<div class="social-item__body">
+										<a href="#" class="social-item__link">
+											<img src="img/icons/insta.svg" alt="instagram icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/fb.svg" alt="facebook icon">
+										</a>
+										<a href="#" class="social-item__link">
+											<img src="img/icons/twiter.svg" alt="twitter icon">
+										</a>
+									</div>
+								</div>
+								<div class="card__content">
+									<a href="#" class="card__title-link">
+										Austin Randall
+									</a>
+									<h3 class="card__subtitle">
+										Marketing Specialist
+									</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+
+		</footer>
+	</div>
+</body>
+</html>
+
+
