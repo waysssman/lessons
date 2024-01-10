@@ -113,6 +113,7 @@ p{
 }
 .car-window:hover{
 	background-color: rgb(103, 103, 167);
+	transition: all 2s;
 }
 
 .car-headlight{
@@ -164,10 +165,6 @@ p{
 	margin-left: 70px;
 	max-width: 82px;
 	opacity: 0;
-}
-.car-window:hover{
-	background-color: none;
-	transition: all 2s;
 }
 .car-window:hover .face{
 	opacity: 1;
