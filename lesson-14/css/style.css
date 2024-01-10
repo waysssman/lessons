@@ -1,0 +1,242 @@
+/* Підключення шріфтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: brown;
+	padding-top: 20px;
+}
+.wrapper{
+	padding: 50px;
+	background-color: rgb(65, 65, 65);
+	min-height: 100%;
+	overflow: clip;
+}
+
+[class*= '__container']{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 100px;
+
+}
+.header{
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 300px;
+	font-size: 30px;
+	color: antiquewhite;
+}
+.title{
+	font-size: 55px;
+	font-weight: 700;
+	text-align: center;
+}
+.footer{
+	margin-top: 200px;
+}
+
+.car-road img{
+	position: absolute;
+	right: 1px;
+	top: 510px;
+	width: 100%;
+	height: 200px;
+}
+.wheel-right {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	bottom: 50px;
+	left: 30px;
+	background-color: black;
+	border-radius: 50%;
+	z-index: 50;
+}
+.wheel-left {
+	position: relative;
+	left: 265px;
+	bottom: 150px;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	border-radius: 50%;
+	z-index: 50;
+}
+.disk-white{
+	position: relative;
+	left: 25px;
+	top: 25px;
+	width: 50px;
+	height: 50px;
+	background-color: rgb(151, 151, 151);
+	border-radius: 50%;
+	animation-name: spin;
+}
+.car-body{
+	position: relative;
+	right: 25px;
+	top: 50px;
+	width: 400px;
+	height: 100px;
+	background-color: aqua;
+	z-index: 40;
+	border: 1px solid black;
+	border-radius: 16%;
+}
+.car-cabin{
+	position: relative;
+	left: 100px;
+	bottom: 100px;
+	width: 200px;
+	height: 100px;
+	background-color: rgb(200, 255, 0);
+	border: 1px solid black;
+	z-index: 40;
+	border-radius: 16%;
+}
+.car-window{
+	position: absolute;
+	left: 125px;
+	bottom: 110px;
+	width: 150px;
+	height: 75px;
+	background-color: rgb(114, 114, 230);
+	z-index: 50;
+	border: 1px solid black;
+	transform: scale(0.9);
+}
+.car-window:hover{
+	background-color: rgb(103, 103, 167);
+}
+
+.car-headlight{
+	position: relative;
+	left: 350px;
+	bottom: 60px;
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	border-radius: 50%;
+	border: 1px solid black;
+	z-index: 1;
+}
+.car-stoplight{
+	position: relative;
+	right: 33px;
+	bottom: 20px;
+	width: 10px;
+	height: 30px;
+	background-color: red;
+}
+.car-stoplight:hover{
+	box-shadow: 1px 5px 25px red;
+}
+.car-headlight:hover{
+	box-shadow: 1px 5px 25px yellow;
+}
+@keyframes spin{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.disk-white::before{
+	content: '+';
+	position: relative;
+	bottom: 25px;
+	right: 4px;
+	font-size: 100px;
+	transform: rotate(30deg);
+	animation-name: spin;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.face{
+	margin-left: 70px;
+	max-width: 82px;
+	opacity: 0;
+}
+.car-window:hover{
+	background-color: none;
+	transition: all 2s;
+}
+.car-window:hover .face{
+	opacity: 1;
+}
+@keyframes tree{
+	0%{
+		left: -100%;
+	}
+	100%{
+		left: 100%;
+	}
+
+}
+.tree{
+	position: relative;
+	max-width: 350px;
+	bottom: 600px;
+	left: -100%;
+	animation-name: tree;
+	animation-duration: 3s;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.tree:hover{
+	animation-play-state: paused;
+}
+.tree:not(:last-child){
+	margin-right: 60px;
+}
+@keyframes harry{
+	0%{
+		left: -100%;
+	}
+	100%{
+		left: 100%;
+	}
+}
+.potter{
+	width: 200px;
+	position: absolute;
+	right: 400px;
+	top: 45px;
+	animation-name: harry;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.potter:hover{
+	animation-play-state: paused;
+}
+
+
+.car__container{
+	position: relative;
+	left: -100%;
+	animation-name: run;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.car__container:hover{
+	animation-play-state: paused;
+}
+@keyframes run{
+	0%{
+		left: -100%;
+	}
+	100%{
+		left: 100%;
+	}
+}
