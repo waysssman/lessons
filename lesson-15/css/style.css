@@ -336,7 +336,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	margin-bottom: 30px;
-	flex-shrink: 0;
+	flex: 0 0 auto;
 }
 .order-card p{
 	color: #3c4242;
@@ -377,8 +377,7 @@
 	font-family: "Causten",sans-serif;
 	font-weight: 500;
 	font-size: 18px;
-	flex-shrink: 0;
-	flex-grow: 0;
+	flex: 0 0 auto;
 }
 .order-btn:hover{
 	cursor: pointer;
@@ -392,6 +391,7 @@
 	height: 90px;
 	margin: 0 auto;
 	margin-right: 486px;
+	flex: 0 0 auto;
 }
 .order-line{
 	width: 894px;
