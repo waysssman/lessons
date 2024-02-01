@@ -172,7 +172,7 @@
 	margin-bottom: 15px;
 }
 .page-photo:hover{
-	transform: scale(105%);
+	transform: scale(105deg);
 }
 .page-name {
 	color: #2A2F2F;
