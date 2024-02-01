@@ -172,7 +172,7 @@
 	margin-bottom: 15px;
 }
 .page-photo:hover{
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 .page-name {
 	color: #2A2F2F;
@@ -336,6 +336,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	margin-bottom: 30px;
+	flex-shrink: 0;
 }
 .order-card p{
 	color: #3c4242;
@@ -377,6 +378,7 @@
 	font-weight: 500;
 	font-size: 18px;
 	flex-shrink: 0;
+	flex-grow: 0;
 }
 .order-btn:hover{
 	cursor: pointer;
