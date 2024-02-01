@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "Mintaka";
+	font-style: normal;
+	font-weight: 400;
+	src:
+	  url("/fonts/mintaka.woff2") format("woff2"),
+	  url("/fonts/mintaka.woff") format("woff");
+}
+@font-face {
+	font-family: "Causten";
+	font-style: normal;
+	font-weight: 600;
+	src:
+	  url("/fonts/causten.woff2") format("woff2"),
+	  url("/fonts/causten.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Core Sans C";
+	font-style: normal;
+	font-weight: 600;
+	src:
+	  url("/fonts/CoreSansC.woff2") format("woff2"),
+	  url("/fonts/CoreSansC.woff") format("woff");
+}
