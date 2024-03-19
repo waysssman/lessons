@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/fav/favicon.png" type="image/x-icon">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<ul class="header-menu">
+					<li class="header-menu__item"><a target="_blank" href="index.html" class="header-menu__link">Request form</a></li>
+					<li class="header-menu__item"><a target="_blank" href="info.html" class="header-menu__link">My info</a></li>
+					<li class="header-menu__item"><a target="_blank" href="check.html" class="header-menu__link">Check out</a></li>
+				</ul>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container check">
+				<div class="check-top">
+					<h2 class="check-title">Check Out</h2>
+					<p class="check-sub">Billing Details</p>
+				</div>
+				<div class="check-form">
+					<form enctype="multipart/form-data" action="#">
+						<div class="check-form__item">
+							<div>
+								<label class="check-form__label" for="name">First Name*</label>
+								<input class="check-form__input" autocomplete="off" placeholder="First Name" type="text" name="name" id="name">
+							</div>
+							<div>
+								<label class="check-form__label" for="last">Last Name*</label>
+								<input class="check-form__input" autocomplete="off" placeholder="Last Name" type="text" name="last" id="last">
+							</div>
+						</div>
+						<div class="check-form__item">
+							<div>
+								<label class="check-form__label" for="country">Country / Region*</label>
+								<input class="check-form__input" autocomplete="off" placeholder="Country / Region" type="text" name="country" id="country">
+							</div>
+							<div>
+								<label class="check-form__label" for="company">Company Name</label>
+								<input class="check-form__input" autocomplete="off" placeholder="Company (optional)" type="text" name="company" id="company">
+							</div>
+						</div>
+						<div class="check-form__item">
+							<div>
+								<label class="check-form__label" for="street">Street Address*</label>
+								<input class="check-form__input" autocomplete="off" placeholder="House number and street name" type="text" name="street" id="street">
+							</div>
+							<div>
+								<label class="check-form__label" for="apt">Apt, suite, unit</label>
+								<input class="check-form__input" autocomplete="off" placeholder="apartment, suite, unit, etc. (optional)" type="text" name="apt" id="apt">
+							</div>
+						</div>
+						<div class="check-form__item select">
+							<div>
+								<label class="select-label" for="sity">City*</label>
+								<input class="select-input" autocomplete="off" placeholder="Town / City" type="text" name="sity" id="sity">
+							</div>
+							<div>
+								<label class="select-label" for="state">State*</label>
+								<select id="state" name="state">
+									<option value="01">Vancoover</option>
+									<option value="02">Washington</option>
+									<option selected value="03">State</option>
+									<option value="04">Dallas</option>
+								</select>
+							</div>
+							<div>
+								<label class="select-label" for="post">Postal Code*</label>
+								<input class="select-input" placeholder="Postal Code" type="number" name="post" id="post">
+							</div>
+						</div>
+						<div class="check-form__phone">
+							<label class="check-form__label" for="phone">Phone*</label>
+							<input class="check-form__input" placeholder="Phone" type="tel" name="phone" id="phone">
+						</div>
+						<div class="check-form__btn">
+							<button type="submit">Continue to delivery</button>
+						</div>
+						<div class="check-form__save save">
+							<input class="save-input" type="checkbox" name="save" id="save">
+							<label class="save-label" for="save">Save my information for a faster checkout</label>
+						</div>
+						<div class="line"></div>
+						<div class="check-form__shipp">
+							<div class="check-form__title">
+								<h5 class="title">Shipping Address</h5>
+								<p class="subtitle">Select the address that matches your card or payment method.</p>
+							</div>
+							<div class="check-radio radio">
+								<div class="radio-form">
+									<input class="radio-input" checked type="radio" name="add" id="same">
+									<label class="radio-label" for="same">Same as Billing address</label>
+								</div>
+								<div class="radio-line"></div>
+								<div class="radio-form">
+									<input class="radio-input" type="radio" name="add" id="use">
+									<label class="radio-label" for="use">Use a different shipping address</label>
+								</div>
+							</div>
+						</div>
+						<div class="line"></div>
+						<div class="check-form__method method">
+							<h5 class="method-title">Shipping Method</h5>
+							<div class="method-block">
+								<div class="method-text">Arrives by Monday, June 7</div>
+								<div class="method-line"></div>
+								<div class="method-deli">
+									<div class="method-text">Delivery Charges
+										<p class="method-sub">Additional fess may apply</p>
+									</div>
+									<div class="method-price">$5.00</div>
+								</div>
+							</div>
+						</div>
+						<div class="line"></div>
+						<div class="check-form__payment payment">
+							<div class="payment-top">
+								<h6 class="payment-title">Payment Method</h6>
+								<p class="payment-sub">All transactions are secure and encrypted.</p>
+							</div>
+							<div class="payment-pay pay">
+								<div class="pay-container first">
+									<div class="first-block">
+										<input type="radio" name="credit" id="credit" class="first-radio">
+										<label for="credit" class="first-label">
+											<div class="first-text">
+												<div class="first-title">Credit Card</div>
+												<div class="first-sub">We accept all major credit cards.</div>
+											</div>
+										</label>
+									</div>
+									<div class="first-method">
+										<ul class="first-list">
+											<li class="first-item"><a href="#" class="first__payment-link"><img src="img/icons/gpay.svg" alt="payment"></a></li>
+											<li class="first-item"><a href="#" class="first__payment-link"><img src="img/icons/visa.svg" alt="payment"></a></li>
+											<li class="first-item"><a href="#" class="first__payment-link"><img src="img/icons/pal.svg" alt="payment"></a></li>
+											<li class="first-item"><a href="#" class="first__payment-link"><img src="img/icons/pass.svg" alt="payment"></a></li>
+										</ul>
+									</div>
+									<div class="first-form">
+										<div class="first-form__block">
+											<input class="first-input" required value="card" tabindex="1" type="number" maxlength="16" name="methodPayment" placeholder="Card number">
+											<input class="first-input" type="text" name="methodPayment" placeholder="Name of card">
+										</div>
+										<div class="first-form__block">
+											<input class="first-input" type="text" name="methodPayment" placeholder="Expiration date (MM/YY)">
+											<div class="first-eye"><input class="first-input" type="password" maxlength="3" name="methodPayment" placeholder="Security Code"></div>
+										</div>
+									</div>
+								</div>
+								<div class="pay-line"></div>
+								<div class="pay-container second">
+									<div class="second-block">
+										<input type="radio" name="credit" id="cash" class="second-input">
+										<label for="cash" class="second-label">
+											<div class="second-text">
+												<div class="second-title">Cash on delivery</div>
+												<div class="second-sub">Pay with cash upon delivery.</div>
+											</div>
+										</label>
+									</div>
+								</div>
+								<div class="pay-line"></div>
+								<div class="pay-container third">
+									<div class="third-block">
+										<input type="radio" name="credit" id="pay" class="third-input">
+										<label for="pay" class="third-label">
+											<div class="third-text">
+												<div class="third-title">PayPal</div>
+											</div>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="check__btn">
+							<button type="submit">Pay Now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<p class="footer__company">© Developed in 2024</p>
+		</footer>
+	</div>
+</body>
+
+</html>

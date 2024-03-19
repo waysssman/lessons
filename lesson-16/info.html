@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/fav/favicon.png" type="image/x-icon">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<ul class="header-menu">
+					<li class="header-menu__item"><a href="index.html" class="header-menu__link">Request form</a></li>
+					<li class="header-menu__item"><a href="info.html" class="header-menu__link">My info</a></li>
+					<li class="header-menu__item"><a href="check.html" class="header-menu__link">Check out</a></li>
+				</ul>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container info">
+				<div class="info__body">
+					<div class="info__body-top">
+						<h4 class="info-title">My Info</h4>
+						<p class="info-sub">Add Address</p>
+					</div>
+					<div class="info__body-form form">
+						<form enctype="multipart/form-data" action="#" class="form-body">
+							<div class="form-item">
+								<div>
+									<label for="name">First Name*</label>
+									<input autocomplete="off" placeholder="First Name" type="text" name="name" id="name">
+								</div>
+								<div>
+									<label for="last">Last Name*</label>
+									<input autocomplete="off" placeholder="Last Name" type="text" name="last" id="last">
+								</div>
+							</div>
+							<div class="form-item">
+								<div>
+									<label for="country">Country / Region*</label>
+									<input autocomplete="off" placeholder="Country / Region" type="text" name="country" id="country">
+								</div>
+								<div>
+									<label for="company">Company Name</label>
+									<input autocomplete="off" placeholder="Company (optional)" type="text" name="company" id="company">
+								</div>
+							</div>
+							<div class="form-item">
+								<div>
+									<label for="street">Street Address*</label>
+									<input autocomplete="off" placeholder="House number and street name" type="text" name="street" id="street">
+								</div>
+								<div>
+									<label for="apt">Apt, suite, unit</label>
+									<input autocomplete="off" placeholder="apartment, suite, unit, etc. (optional)" type="text" name="apt" id="apt">
+								</div>
+							</div>
+							<div class="form-item">
+								<div>
+									<label for="sity">City*</label>
+									<input autocomplete="off" placeholder="Town / City" type="text" name="sity" id="sity">
+								</div>
+								<div class="select-before">
+									<label for="state">State*</label>
+									<select id="state" name="state">
+										<option value="01">Vancoover</option>
+										<option value="02">Washington</option>
+										<option selected value="03">State</option>
+										<option value="04">Dallas</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-item">
+								<div>
+									<label for="tel">Phone*</label>
+									<input autocomplete="off" placeholder="Phone" type="tel" name="tel" id="tel">
+								</div>
+								<div>
+									<label for="post">Postal Code*</label>
+									<input minlength="5" autocomplete="off" placeholder="Postal Code" type="number" name="post" id="post">
+								</div>
+							</div>
+							<div class="form-text">
+									<label for="del">Delivery Instruction</label>
+									<textarea placeholder="Delivery Instruction" name="del" id="del"></textarea>
+							</div>
+							<div class="form-radio">
+								<div class="form__group">
+									<div class="form__checkbox checkbox">
+										<input class="checkbox__input" type="checkbox" name="ship" id="ship">
+										<label class="checkbox__label" for="ship">Set as default shipping address</label>
+									</div>
+
+									<div class="form__checkbox checkbox">
+										<input class="checkbox__input" type="checkbox" name="bill" id="bill">
+										<label class="checkbox__label" for="bill">Set as default billing address</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-btn">
+								<button class="submit" type="submit">Save</button>
+								<button class="reset" type="reset">Cancel</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<p class="footer__company">© Developed in 2024</p>
+		</footer>
+	</div>
+</body>
+
+</html>
+
