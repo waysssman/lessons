@@ -705,6 +705,11 @@ input[type=tel] {
   position: relative;
   z-index: 4;
 }
+@media (any-hover: hover) {
+  .header__logo:hover {
+    cursor: pointer;
+  }
+}
 @media (max-width: 47.99875em) {
   .header__menu {
     position: fixed;
