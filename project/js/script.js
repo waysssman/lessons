@@ -3,9 +3,13 @@ document.addEventListener('click', documentActions);
 
 function documentActions(e) {
    const targetElement = e.target;
-
+   // Відкриття бургер-меню при виборі пункту меню
    if (targetElement.closest('.icon-menu')) {
       document.body.classList.toggle('menu-open');
+   }
+   // Закриття бургер-меню при виборі пункту меню
+   if (targetElement.closest('.menu__link')) {
+      document.body.classList.remove('menu-open'); // Закриваємо меню
    }
 
    if (targetElement.closest('[data-spoller]')) {
