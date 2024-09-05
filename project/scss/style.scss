@@ -1,0 +1,86 @@
+@use "sass:math";
+
+// * минимальная ширина
+$minWidth: 320;
+// * Ширина полотна
+$maxWidth: 1440;
+// * Ширина ограничевающего контейнера
+$maxWidthContainer: 1240;
+// * Общий отступ у контейнера
+$containerPadding: 30;
+// (30 = по 15 слева и справа, 0 = нет отступа)
+//* Ширина срабатывания первого брeйкпоинта
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+// * Цвета
+$mainColor: #807d7e;
+$darkColor: #3c4242;
+$purpleColor: #8a33fd;
+$liteColor: #f6f6f6;
+// * Функции
+@import "_functions.scss";
+// * Подключение шрифтов
+@import "_fonts.scss";
+// * Icons font
+@import "_icons.scss";
+// * Обнуление стилей
+@import "_reset.scss";
+// * Компоненты
+@import "_common.scss";
+// * Шапка хэдэр
+@import "_header.scss";
+// * Подвал футер
+@import "_footer.scss";
+
+body {
+	font-family: "Causten";
+	color: $mainColor;
+	&.menu-open {
+		overflow: hidden;
+		touch-action: none;
+		overscroll-behavior: none;
+	}
+}
+
+.wrapper {
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	@media (max-width: toEm(540)) {
+		padding-bottom: toRem(75);
+	}
+}
+
+.wrapper main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: toRem(1270);
+	margin: 0 auto;
+	padding-left: toRem(15);
+	padding-right: toRem(15);
+}
+.page {
+	&__hero {
+		@include adaptiveValue("margin-bottom", 130, 40);
+	}
+	&__deals,
+	&__sale,
+	&__shop-now,
+	&__products,
+	&__reviews {
+		@include adaptiveValue("margin-bottom", 100, 40);
+	}
+	// .page__new
+	&__new {
+		@include adaptiveValue("margin-bottom", 95, 40);
+	}
+	&__top-brands {
+		@include adaptiveValue("margin-bottom", 75, 40);
+	}
+}
+
+// * Странички
+@import "_home.scss";
