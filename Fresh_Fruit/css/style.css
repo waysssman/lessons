@@ -1,0 +1,131 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FFF8E1;
+	color: #333;
+ }
+ 
+ .overlay {
+	padding: 50px 20px;
+	background-color: rgba(255, 255, 255, 0.85);
+ }
+ 
+ .section {
+	max-width: 960px;
+	margin: 0 auto 60px;
+	padding: 50px 40px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #ffffffee;
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.07);
+	background-size: cover;
+	background-position: center;
+
+ }
+ 
+ .section:nth-of-type(1) {
+	background-image: url('../img/oranges.png'); /* апельсины */
+	background-color: rgba(255, 255, 255, 0.6);
+	background-blend-mode: overlay;
+
+ }
+ 
+ .section:nth-of-type(2) {
+	background-image: url('../img/pineapple.png');
+	background-color: rgba(255, 255, 255, 0.6);
+	background-blend-mode: overlay; /* ананасы */
+ }
+ 
+ .section:nth-of-type(3) {
+	background-image: url('../img/lichi.png');
+	background-color: rgba(255, 255, 255, 0.6);
+	background-blend-mode: overlay; /* личи */
+ }
+
+ 
+ h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+	font-weight: bold;
+	color: green;
+	margin-bottom: 10px;
+ }
+ 
+ h2 {
+	font-size: 26px;
+	color: #222;
+	margin-bottom: 30px;
+	font-weight: 500;
+ }
+ 
+ p {
+	font-size: 18px;
+	line-height: 1.7;
+	color: #000;
+	font-weight: bold;
+
+ }
+ 
+ .features {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	display: inline-block;
+ }
+ 
+ .features li {
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: #000;
+	position: relative;
+	padding-left: 32px;
+ }
+ 
+ .features li::before {
+	content: "\2714";
+	position: absolute;
+	left: 0;
+	top: 2px;
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+ }
+ 
+ .cta {
+	font-size: 20px;
+	margin-top: 30px;
+	background-color: #FFB703;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 8px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	box-shadow: 0 6px 14px rgba(255, 183, 3, 0.3);
+ }
+ 
+ .cta:hover {
+	background-color: #ffa600;
+	transform: translateY(-2px);
+	box-shadow: 0 8px 20px rgba(255, 183, 3, 0.5);
+ }
+ 
+ @media (max-width: 768px) {
+	h1 {
+	  font-size: 36px;
+	}
+ 
+	h2 {
+	  font-size: 22px;
+	}
+ 
+	p, .features li {
+	  font-size: 16px;
+	}
+ 
+	.section {
+	  padding: 30px 20px;
+	}
+ }
